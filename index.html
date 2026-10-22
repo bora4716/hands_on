@@ -215,29 +215,29 @@
 
                     <!-- Outer Node 1: 밀착 조력자 (Top, y=100 - safely away from the bottom right) -->
                     <g id="node-helper" class="cursor-pointer" onclick="selectNode('helper')">
-                        <circle cx="400" cy="100" r="40" fill="#111726" stroke="#fbbf24" stroke-width="2.5" filter="url(#glow-node)" />
-                        <text x="400" y="96" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">사적 지원</text>
+                        <circle cx="400" cy="100" r="52" fill="#111726" stroke="#fbbf24" stroke-width="2.5" filter="url(#glow-node)" />
+                        <text x="400" y="95" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">사적 지원</text>
                         <text x="400" y="112" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">밀착 조력자</text>
                     </g>
 
                     <!-- Outer Node 2: 민간지원체계 (Left, x=160, y=280) -->
                     <g id="node-agency" class="cursor-pointer" onclick="selectNode('agency')">
-                        <circle cx="160" cy="280" r="40" fill="#111726" stroke="#3b82f6" stroke-width="2.5" filter="url(#glow-node)" />
-                        <text x="160" y="276" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">기획 및 교육</text>
+                        <circle cx="160" cy="280" r="52" fill="#111726" stroke="#3b82f6" stroke-width="2.5" filter="url(#glow-node)" />
+                        <text x="160" y="275" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">기획 및 교육</text>
                         <text x="160" y="292" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">장애인 지원기관</text>
                     </g>
 
                     <!-- Outer Node 3: 공적지원체계 (Right, x=640, y=280) -->
                     <g id="node-fire" class="cursor-pointer" onclick="selectNode('fire')">
-                        <circle cx="640" cy="280" r="40" fill="#111726" stroke="#ef4444" stroke-width="2.5" filter="url(#glow-node)" />
-                        <text x="640" y="276" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">공적 구조</text>
-                        <text x="640" y="292" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">소방청 (119)</text>
+                        <circle cx="640" cy="280" r="64" fill="#111726" stroke="#ef4444" stroke-width="3" filter="url(#glow-node)" />
+                        <text x="640" y="272" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">공적 구조</text>
+                        <text x="640" y="291" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">소방지원체계 (119)</text>
                     </g>
 
                     <!-- Outer Node 4: 언론사 (Bottom-Center, x=400, y=460 - leaves the bottom-right corner completely vacant) -->
                     <g id="node-press" class="cursor-pointer" onclick="selectNode('press')">
-                        <circle cx="400" cy="460" r="40" fill="#111726" stroke="#a855f7" stroke-width="2.5" filter="url(#glow-node)" />
-                        <text x="400" y="456" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">확산 및 이슈</text>
+                        <circle cx="400" cy="460" r="52" fill="#111726" stroke="#a855f7" stroke-width="2.5" filter="url(#glow-node)" />
+                        <text x="400" y="455" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">확산 및 이슈</text>
                         <text x="400" y="472" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">언론 보도사</text>
                     </g>
                 </g>
@@ -368,7 +368,7 @@
                     {
                         icon: "sensors",
                         title: "안전안심 서비스 지원 (IoT 게이트웨이 자동 통보",
-                        desc: "당사자 가구 내 화재 경보기가 작동하면 당사자용 진동/섬광 알림판이 돌아감과 동시에 소방청 지령실로 게이트웨이를 통한 실시간 자동 접수가 실행됩니다.",
+                        desc: "당사자 가구 내 화재 경보기가 작동하면 당사자용 진동/섬광 알림판이 돌아감과 동시에 소방지원체계 지령실로 게이트웨이를 통한 실시간 자동 접수가 실행됩니다.",
                         badge: "당사자 -> 소방지원체계"
                     },
                     {
@@ -381,7 +381,7 @@
                         icon: "local_fire_department",
                         title: "119안심콜 연동 정밀 출동",
                         desc: "구조 요원들은 출동 차량 내에서 태블릿으로 119안심콜에 등록된 당사자의 특성을 한눈에 보며 진입하므로, 현장 도착 즉시 신속하고 정확한 타격식 조준 구조가 가능합니다.",
-                        badge: "소방청 최우선 구조"
+                        badge: "소방지원체계 최우선 구조"
                     }
                 ]
             },
